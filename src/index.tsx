@@ -21,12 +21,56 @@ async function enableMocking() {
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+// Border radius for all the components
+const theme = createTheme({
+  components: {
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: "10px",
+        },
+      },
+    },
+    MuiSelect: {
+      styleOverrides: {
+        root: {
+          borderRadius: "10px",
+        },
+      },
+    },
+    MuiMenuItem: {
+      styleOverrides: {
+        root: {
+          borderRadius: "10px",
+        },
+      },
+    },
+    MuiCheckbox: {
+      styleOverrides: {
+        root: {
+          borderRadius: "10px",
+        },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: "10px",
+        },
+      },
+    },
+  },
+});
+
 enableMocking().then(() => {
   root.render(
     <React.StrictMode>
+      <ThemeProvider theme={theme}>
         <Provider store={store}>
           <App />
         </Provider>
+      </ThemeProvider>
     </React.StrictMode>
   );
 });
