@@ -26,10 +26,10 @@ export const FiltersPanel = () => {
   );
 
   return (
-    <MapPanel position={{ top: 10, left: 10 }} title="Filters">
+    <MapPanel position={{ top: 10, left: 10 }} title="Filtros">
       <Box sx={{ display: "flex", gap: 1 }}>
         <FormControl>
-          <InputLabel>Date</InputLabel>
+          <InputLabel>Dia</InputLabel>
           <Select
             label={"Date"}
             value={date}
@@ -43,7 +43,7 @@ export const FiltersPanel = () => {
           </Select>
         </FormControl>
         <FormControl>
-          <InputLabel>Hour</InputLabel>
+          <InputLabel>Hora</InputLabel>
           <Select
             label={"Hour"}
             value={hour}
