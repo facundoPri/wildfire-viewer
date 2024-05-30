@@ -45,10 +45,10 @@ export const WildfireListPanel = ({ wildfires }: { wildfires: Wildfire[] }) => {
     >
       <FixedSizeList
         ref={listRef}
-        height={600}
+        height={500}
         itemCount={filteredWildfires.length}
         itemSize={50}
-        width={500}
+        width={400}
       >
         {({ index, style }) => {
           const item = filteredWildfires[index];
