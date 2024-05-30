@@ -1,52 +1,80 @@
-# Frontend Challenge
-¡Bienvenido! ¡Este es el desafío de Front End para Satellites on Fire! A continuación, te dejamos la consigna. Ante cualquier duda, no consultes en escribir a joaquin@satellitesonfire.com.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+  </a>
 
-**IMPORTANTE:**
-No crear Pull Requests ni forkear. Clonar y subir a un repo nuevo y compartir el mismo con la solución.
+<h3 align="center">WildFire Visualizer</h3>
 
-## Consigna
-La visualización de incendios en un mapa es muy importante para nuestros usuarios, ya que les permite identificar si hay cerca de su terreno incendios o no.
+  <p align="center">
+    A Wildfire Visualizer challenge
+  </p>
+</div>
 
-Por ello, tu desafío va a ser implementar un visualizador de incendios forestales en React JS **en el plazo de 7 días!**
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-<p align="center">
-  <img src="Readme-Picture1.png" alt="Imágen de Columna de Humo"/>
-</p>
+![alt text](Readme-Picture1.png)
 
-## Funcionalidades
-La Single Page Application programada en React debe realizar lo siguiente:
+A React-based wildfire visualizer that utilizes React-Leaflet to display wildfires on an interactive map. Users can filter data to explore wildfires by various criteria. Powered by Redux Toolkit for robust state management, and leveraging MSW to mock a JSON API, this visualizer provides a dynamic and informative experience.
 
-- Mostrar puntos (incendios) en el mapa, y según una escala de confiabilidad modificar el aspecto de los puntos: deben estar en un color Rojo más oscuro los más seguros, y los menos confiables en Amarillo. Pueden basarse en los colores de nuestra aplicación o implementar los propios.
-- Implementar con redux:
-  - La carga inicial de puntos que se encuentran en la API.
-  - Un componente de fecha y hora para filtrar puntos.
-  - Control de errores con un mensaje de error genérico (o no) que informe acerca de un error.
-- Mostrar información extra al clickear un punto.
-- Mostrar cuántos (es decir, el número de) focos de calor se están mostrando en el mapa, y hacer una lista de ellos. El listado debe estar actualizado según los filtros aplicados previamente.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Además, obviamente, debe contener un mapa. Se tendrá en cuenta la estética y consistencia del desarrollo.
+### Built With
 
-## Requerimientos
-La página debe:
-- Estar hecha en React JS
-- Utiliar TypeScript (¡Por favor no poner "any" en todos los tipos de variable!)
-- Utilizar MUI y utilizarlo en todos los componentes que considere necesarios.
-- Mantener el caracter full height del componente mapa para utilizar similar a nuestra aplicación.
+* [React](https://es.react.dev/)
+* [Redux Toolkit](https://redux-toolkit.js.org/)
+* [React-leaflet](https://react-leaflet.js.org/)
+* [MUI](https://mui.com/)
+* [Mock Service Worker](https://mswjs.io/)
 
-Cuantos más requerimientos de estos se cumplan, más puntaje se le dará al desafío.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Bonus:
-- Cualquier aspectos de diseño a innovar que mantenga la esencia del producto, sumará más puntaje al desafío.
-- Mejoras en la estructura de proyecto y uso de la API.
-- Testear el funcionamiento de los filtros (no UI).
-- Testear componentes de Front.
+<!-- GETTING STARTED -->
+## Getting Started
 
-## API
-Para acceder a los datos, contarás con puntos de incendios reales en la carpeta API. Estos están guardados en archivos JSON, con la siguiente estructura:
+Setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-`api/YYYY(año)-MM(mes)-DD(dia)/THH(T + hora).json`
+### Prerequisites
 
-Podrás verificar esto en la carpeta API. Luego, en `Docs.md` encontrarás más información sobre los archivos JSON. Recomendamos incluir la carpeta `api` en la carpeta `public` del proyecto para trabajar como si fuera una API deployada.
+* nodejs
+* npm
 
-## Formato de Entrega
-Un repositorio GitHub nuevo con el proyecto. El archivo `README.md` debe contener las instrucciones para correr el proyecto.
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   cd wildfire-viewer
+   ```
+
+2. Copy the .env.example as .env
+
+   ```sh
+   cp .env.example .env
+   ```
+
+3. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+4. Run
+
+   ```js
+   npm run start
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Facundo Prieto - [facundo-prieto](https://www.linkedin.com/in/facundo-prieto/) - <facundo.prieto@gmail.com>
+
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
