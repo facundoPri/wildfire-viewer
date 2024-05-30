@@ -43,7 +43,6 @@ export const WildFireMarker = ({ item }: { item: Wildfire }) => {
           <p>Latitude: {item.y}</p>
           <p>Longitude: {item.x}</p>
           <p>Satellite: {item.sat}</p>
-          <p>Time: {item.date}</p>
           <p>Date: {item.date}</p>
         </div>
       </Popup>
