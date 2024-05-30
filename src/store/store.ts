@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { apiSlice } from "./api/apiSlice";
 import { filtersSlice } from "./slices/filters/filtersSlices";
+import { wildfireSlice } from "./slices/wildfire/wildfireSlices";
 
 const store = configureStore({
   reducer: {
     filters: filtersSlice.reducer,
+    wildfire: wildfireSlice.reducer,
     [apiSlice.reducerPath]: apiSlice.reducer,
   },
   middleware: (getDefaultMiddleware) => {
