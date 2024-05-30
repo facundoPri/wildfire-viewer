@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/facundoPri/wildfire-viewer">
   </a>
 
 <h3 align="center">WildFire Visualizer</h3>
@@ -18,7 +18,7 @@
 
 A React-based wildfire visualizer that utilizes React-Leaflet to display wildfires on an interactive map. Users can filter data to explore wildfires by various criteria. Powered by Redux Toolkit for robust state management, and leveraging MSW to mock a JSON API, this visualizer provides a dynamic and informative experience.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Built With
 
@@ -28,7 +28,7 @@ A React-based wildfire visualizer that utilizes React-Leaflet to display wildfir
 * [MUI](https://mui.com/)
 * [Mock Service Worker](https://mswjs.io/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -68,13 +68,12 @@ To get a local copy up and running follow these simple example steps.
    npm run start
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
 
 Facundo Prieto - [facundo-prieto](https://www.linkedin.com/in/facundo-prieto/) - <facundo.prieto@gmail.com>
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/facundoPri/wildfire-viewer](https://github.com/facundoPri/wildfire-viewer)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
