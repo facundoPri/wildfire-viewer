@@ -1,14 +1,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/facundoPri/wildfire-viewer">
-  </a>
+
 
 <h3 align="center">WildFire Visualizer</h3>
 
   <p align="center">
     A Wildfire Visualizer challenge
   </p>
+  
+  <a href="https://wildfire-viewer.vercel.app/">
+    Demo
+  </a>
 </div>
 
 <!-- ABOUT THE PROJECT -->
